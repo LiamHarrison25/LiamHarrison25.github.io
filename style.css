@@ -182,7 +182,7 @@
     background: #6F6F6F;
     display: flex;
     flex-direction: row;
-    gap: 1px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     align-self: center;
