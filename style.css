@@ -1,0 +1,178 @@
+.home-page,
+.home-page*
+{
+    box-sizing: border-box;
+}
+
+.home-page
+{
+    background: #404040;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow-y: auto;
+}
+
+.page-navigation-bar {
+    background: #6f6f6f;
+    padding: 4px 32px 4px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 99px;
+    position: relative;
+}
+
+.liam-harrison {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+    width: 302px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-button {
+    flex-shrink: 0;
+    width: 135px;
+    height: 71px;
+    position: relative;
+}
+.ellipse-1 {
+    background: #badce2;
+    border-radius: 50%;
+    width: 135px;
+    height: 71px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home {
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 122px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-page-button {
+    flex-shrink: 0;
+    width: 135px;
+    height: 71px;
+    position: relative;
+}
+
+.ellipse-2 {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 135px;
+    height: 71px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.resume {
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 128px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page-button {
+    flex-shrink: 0;
+    width: 135px;
+    height: 71px;
+    position: relative;
+}
+.ellipse-3 {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 135px;
+    height: 71px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.contact {
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 137px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.other-page-button {
+    flex-shrink: 0;
+    width: 135px;
+    height: 71px;
+    position: relative;
+}
+.ellipse-4 {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 135px;
+    height: 71px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.other {
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 114px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
