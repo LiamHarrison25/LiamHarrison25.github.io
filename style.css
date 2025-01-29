@@ -194,3 +194,24 @@
 {
     background: #BADCE2;
 }
+.projects
+{
+    display: flex;
+    flex-direction: row;
+    gap: 462px;
+    row-gap: 168px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.projects-bar {
+    background: #d9d9d9;
+    flex-shrink: 0;
+    width: 1726px;
+    height: 127px;
+    position: relative;
+}
