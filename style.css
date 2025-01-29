@@ -176,3 +176,21 @@
     align-items: center;
     justify-content: center;
 }
+
+.video-frame
+{
+    background: #6F6F6F;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    height: 360px;
+    position: relative;
+}
+.about-me
+{
+    background: #BADCE2;
+}
