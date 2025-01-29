@@ -4,7 +4,7 @@
 <!-- SECTION: metadata -->
 <head>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="StyleSheets/indexStyle.css">
 <title>Liam Harrison Portfolio</title>
 
 <meta charset="utf-8" />
@@ -14,35 +14,45 @@
 
 <!--<body style="background-color: #404040;"> -->
 
+<body>
+
 <div class="home-page">
 
-    <div class="page-navigation-bar">
-        <div class="liam-harrison">LiamHarrison
+    <ul class="page-navigation-bar" id="nav-bar">
+        <li class="liam-harrison">LiamHarrison
             <!--<h1 style="color:lightskyblue; font-size:20px; font-family: Verdana,serif; text-align: left;"><strong> Liam Harrison</strong></h1> -->
-        </div>
-        <div class="home-page-button">
-            <div class="ellipse-1"></div>
-            <div class="home">Home</div>
-        </div>
-        <div class="resume-page-button">
-            <div class="ellipse-2"></div>
-            <div class="resume">Resume</div>
-        </div>
-        <div class="contact-page-button">
-            <div class="ellipse-3"></div>
-            <div class="contact">Contact</div>
-        </div>
-        <div class="other-page-button">
-            <div class="ellipse-4"></div>
-            <div class="other">Other</div>
-        </div>
-    </div>
+        </li>
+        <li class="home-page-button">
+            <a href="#home-section" class="nav-link" >
+                <div class="ellipse-1"></div>
+                <div class="home">Home</div>
+            </a>
+        </li>
+        <li class="resume-page-button">
+            <a href="./resume.html" class="nav-link" target="_blank">
+                <div class="ellipse-2"></div>
+                <div class="resume">Resume</div>
+            </a>
+        </li>
+        <li class="contact-page-button">
+            <a href="./contact.html" class="nav-link">
+                <div class="ellipse-3"></div>
+                <div class="contact">Contact</div>
+            </a>
+        </li>
+        <li class="other-page-button">
+            <a href="./other.html" class="nav-link">
+                <div class="ellipse-4"></div>
+                <div class="other">Other</div>
+            </a>
+        </li>
+    </ul>
 
     <div class="video-frame">
         <iframe width="840" height="472" src="https://www.youtube.com/embed/mHjgi2_TmiI?autoplay=1&mute=1&start=120" title="Highlight reel"></iframe>
     </div>
 
-    <div class="about-me">
+    <section class="about-me" id="home-section">
 
         <h2>About Me</h2>
 
@@ -53,8 +63,7 @@
             I Studied abroad in Montreal and competed in the 2024 Ubisoft Game Lab Competition. My most important skills are problem-solving and adaptability.
             My background has helped me in pursuing my interests.</p>
         <hr>
-
-    </div>
+    </section>
 
     <section class="project" id="projects-section"></section>
     <div class="projects">
@@ -84,4 +93,4 @@
 
 </html>
 
-<!-- <img src="profile.jpg" alt="Profile Picture" width="142" height="142"> -->
+<!-- <img src="Images/profile.jpg" alt="Profile Picture" width="142" height="142"> -->
