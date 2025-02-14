@@ -7,17 +7,17 @@ html, body
     scroll-behavior: smooth;
 }
 
-.page-navigation-bar {
+.page-navigation-bar
+{
+    /* both desktop & mobile*/
     background: #404040;
-    padding: 4px 32px 4px 32px;
+
     display: flex;
     flex-direction: row;
-    gap: 1.3vw;
     align-items: center;
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
-    height: 4.3vw;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -26,46 +26,96 @@ html, body
     left: 0;
     margin: 0;
     border: 10px solid #181f1f;
+
+    /*mobile*/
+    height: 6.3vw;
+    gap:2.3vw;
+    padding: 4px 32px 4px 10px;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        padding: 4px 32px 4px 32px;
+        height: 4.3vw;
+        gap: 1.3vw;
+    }
 }
 
-.liam-harrison {
+.liam-harrison
+{
+    /* both desktop & mobile*/
     color: #ffffff;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
     text-shadow: 2px 2px 5px #84e2ef;
-    font-size: 3vw;
     font-weight: 400;
     position: relative;
-    width: 30vw;
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*mobile*/
+    font-size: 4vw;
+    width: 40vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 3vw;
+        width: 30vw;
+    }
+
+
 }
 
-.home-page-button {
+.home-page-button
+{
+    /* both desktop & mobile*/
     flex-shrink: 0;
-    width: 7.5vw;
-    height: 3.9vw;
     position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
+
 }
 
-.ellipse-1 {
+.ellipse-1
+{
+    /* both desktop & mobile*/
     background: #badce2;
     border-radius: 50%;
-    width: 7.5vw;
-    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.home {
+.home
+{
+    /* both desktop & mobile*/
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -76,30 +126,62 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*mobile*/
+    font-size: 1.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
 }
 
-.resume-page-button {
+.resume-page-button
+{
+    /* both desktop & mobile*/
     flex-shrink: 0;
-    width: 7.5vw;
-    height: 3.9vw;
     position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.ellipse-2 {
+.ellipse-2
+{
+    /* both desktop & mobile*/
     background: #d9d9d9;
     border-radius: 50%;
-    width: 7.5vw;
-    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.resume {
+.resume
+{
+    /* both desktop & mobile*/
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -110,30 +192,62 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*mobile*/
+    font-size: 1.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
 }
 
-.contact-page-button {
+.contact-page-button
+{
+    /* both desktop & mobile*/
     flex-shrink: 0;
-    width: 7.5vw;
-    height: 3.9vw;
     position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.ellipse-3 {
+.ellipse-3
+{
+    /* both desktop & mobile*/
     background: #d9d9d9;
     border-radius: 50%;
-    width: 7.5vw;
-    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.contact {
+.contact
+{
+    /* both desktop & mobile*/
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -144,30 +258,62 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*mobile*/
+    font-size: 1.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
 }
 
-.other-page-button {
+.other-page-button
+{
+    /* both desktop & mobile*/
     flex-shrink: 0;
-    width: 7.5vw;
-    height: 3.9vw;
     position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.ellipse-4 {
+.ellipse-4
+{
+    /* both desktop & mobile*/
     background: #d9d9d9;
     border-radius: 50%;
-    width: 7.5vw;
-    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
 }
 
-.other {
+.other
+{
+    /* both desktop & mobile*/
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -178,6 +324,15 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*mobile*/
+    font-size: 1.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
 }
 
 .home-page
@@ -195,13 +350,12 @@ html, body
     justify-content: flex-start;
     position: relative;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    /*overflow-y: auto;*/
     overflow: auto;
 }
 
 .video-frame
 {
-
+    /* both desktop & mobile*/
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -209,12 +363,20 @@ html, body
     justify-content: center;
     align-self: center;
     flex-shrink: 0;
-    height: 40vw;
     width: 100%;
     max-width: 100%;
     position: relative;
     padding-top: 40px;
     background-color: #404040;
+
+    /*mobile*/
+    height: 70vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        height: 45vw;
+    }
 }
 
 .about-me
