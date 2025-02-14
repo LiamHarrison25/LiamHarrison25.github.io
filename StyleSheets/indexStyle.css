@@ -12,12 +12,12 @@ html, body
     padding: 4px 32px 4px 32px;
     display: flex;
     flex-direction: row;
-    gap: 21px;
+    gap: 1.3vw;
     align-items: center;
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
-    height: 80px;
+    height: 4.3vw;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -33,10 +33,10 @@ html, body
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
     text-shadow: 2px 2px 5px #84e2ef;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 400;
     position: relative;
-    width: 302px;
+    width: 30vw;
     height: 90px;
     display: flex;
     align-items: center;
@@ -45,16 +45,16 @@ html, body
 
 .home-page-button {
     flex-shrink: 0;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: relative;
 }
 
 .ellipse-1 {
     background: #badce2;
     border-radius: 50%;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -65,7 +65,7 @@ html, body
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -80,16 +80,16 @@ html, body
 
 .resume-page-button {
     flex-shrink: 0;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: relative;
 }
 
 .ellipse-2 {
     background: #d9d9d9;
     border-radius: 50%;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -99,7 +99,7 @@ html, body
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -114,16 +114,16 @@ html, body
 
 .contact-page-button {
     flex-shrink: 0;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: relative;
 }
 
 .ellipse-3 {
     background: #d9d9d9;
     border-radius: 50%;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -133,7 +133,7 @@ html, body
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
@@ -148,16 +148,16 @@ html, body
 
 .other-page-button {
     flex-shrink: 0;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: relative;
 }
 
 .ellipse-4 {
     background: #d9d9d9;
     border-radius: 50%;
-    width: 135px;
-    height: 71px;
+    width: 7.5vw;
+    height: 3.9vw;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -167,7 +167,7 @@ html, body
     color: #000000;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 400;
     position: absolute;
     left: 50%;
