@@ -520,6 +520,14 @@ html, body
     color: #000000;
 }
 
+.about-anchor
+{
+    display: block;
+    height: 50vh;
+    margin-top: -50vh; /* anchor used to scroll to the middle of this section */
+    visibility: hidden;
+}
+
 .about-me-title
 {
     text-decoration: overline;
@@ -571,6 +579,14 @@ html, body
     font-family: "Oswald-Regular", sans-serif;
     color: #1b1e21;
 
+}
+
+.projects-anchor
+{
+    display: block;
+    height: 50vh;
+    margin-top: -50vh; /* anchor used to scroll to the middle of this section */
+    visibility: hidden;
 }
 
 .projects
