@@ -110,7 +110,7 @@ html, body
     }
 }
 
-.home
+.home-button-text
 {
     /* both desktop & mobile*/
     color: #000000;
@@ -137,7 +137,7 @@ html, body
     }
 }
 
-.resume-page-button
+.about-page-button
 {
     /* both desktop & mobile*/
     flex-shrink: 0;
@@ -176,7 +176,7 @@ html, body
     }
 }
 
-.resume
+.about-button-text
 {
     /* both desktop & mobile*/
     color: #000000;
@@ -187,8 +187,8 @@ html, body
     left: 50%;
     translate: -50% -50%;
     top: 50%;
-    width: 128px;
-    height: 50px;
+    width: 137px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,7 +203,7 @@ html, body
     }
 }
 
-.contact-page-button
+.projects-page-button
 {
     /* both desktop & mobile*/
     flex-shrink: 0;
@@ -242,7 +242,7 @@ html, body
     }
 }
 
-.contact
+.projects-button-text
 {
     /* both desktop & mobile*/
     color: #000000;
@@ -255,6 +255,139 @@ html, body
     top: 50%;
     width: 137px;
     height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*mobile*/
+    font-size: 2.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
+}
+
+.contact-page-button
+{
+    /* both desktop & mobile*/
+    flex-shrink: 0;
+    position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
+}
+
+
+.ellipse-4
+{
+    /* both desktop & mobile*/
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
+}
+
+.contact-button-text
+{
+    /* both desktop & mobile*/
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 137px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*mobile*/
+    font-size: 2.5vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: 1.5vw;
+    }
+}
+
+.resume-page-button
+{
+    /* both desktop & mobile*/
+    flex-shrink: 0;
+    position: relative;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
+}
+
+.ellipse-5
+{
+    /* both desktop & mobile*/
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    /*mobile*/
+    width: 10.5vw;
+    height: 5.9vw;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 7.5vw;
+        height: 3.9vw;
+    }
+}
+
+.resume-button-text
+{
+    /* both desktop & mobile*/
+    color: #000000;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    width: 128px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,7 +420,7 @@ html, body
     }
 }
 
-.ellipse-4
+.ellipse-6
 {
     /* both desktop & mobile*/
     background: #d9d9d9;
@@ -308,7 +441,7 @@ html, body
     }
 }
 
-.other
+.other-button-text
 {
     /* both desktop & mobile*/
     color: #000000;
@@ -463,6 +596,17 @@ html, body
     width: 551px;
     height: 577px;
     position: relative;
+    text-align: center;
+    color: #cfe7e3;
+}
+
+.rise-from-ruin-bar
+{
+    background: #4f4f4f;
+    width: 100%;
+    height: 50px;
+    color: #cfe7e3;
+    text-align: center;
 }
 
 .notsb
@@ -472,6 +616,8 @@ html, body
     width: 551px;
     height: 577px;
     position: relative;
+    text-align: center;
+    color: #cfe7e3;
 }
 
 .game-engine
@@ -481,6 +627,8 @@ html, body
     width: 551px;
     height: 577px;
     position: relative;
+    text-align: center;
+    color: #cfe7e3;
 }
 
 .cave-generation
@@ -490,6 +638,8 @@ html, body
     width: 551px;
     height: 577px;
     position: relative;
+    text-align: center;
+    color: #cfe7e3;
 }
 
 .contacts_Bar
