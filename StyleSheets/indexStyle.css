@@ -1,16 +1,13 @@
-body
+html, body
 {
-    background: #6f6f6f;
-}
-
-.home-page,
-.home-page*
-{
-    box-sizing: border-box;
+    background: #404040;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .page-navigation-bar {
-    background: #6f6f6f;
+    background: #404040;
     padding: 4px 32px 4px 32px;
     display: flex;
     flex-direction: row;
@@ -24,15 +21,17 @@ body
     top: 0;
     z-index: 1;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.95;
     left: 0;
     margin: 0;
+    border: 10px solid #181f1f;
 }
 
 .liam-harrison {
     color: #ffffff;
     text-align: center;
     font-family: "Oswald-Regular", sans-serif;
+    text-shadow: 2px 2px 5px #84e2ef;
     font-size: 30px;
     font-weight: 400;
     position: relative;
@@ -182,6 +181,7 @@ body
 
 .home-page
 {
+    box-sizing: border-box;
     background: #404040;
     border-style: solid;
     border-color: #000000;
@@ -194,7 +194,8 @@ body
     justify-content: flex-start;
     position: relative;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    overflow-y: auto;
+    /*overflow-y: auto;*/
+    overflow: auto;
 }
 
 .video-frame
@@ -208,17 +209,74 @@ body
     align-self: center;
     flex-shrink: 0;
     height: 725px;
-    width: 1224px;
+    width: 100%;
+    max-width: 100%;
     position: relative;
     padding-top: 40px;
+    background-color: #404040;
 }
 
 .about-me
 {
+    align-items: center;
     background: #BADCE2;
     font-family: "Oswald-Regular", sans-serif;
     color: #000000;
 }
+
+.about-me-title
+{
+    text-decoration: overline;
+    text-decoration-color: black;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    color: #1b1e21;
+}
+
+.about-me-text
+{
+    border: 1px solid black;
+    text-align: justify;
+    padding: 10px 40px 10px 40px;
+    font-family: "Oswald-Regular", sans-serif;
+    color: #1b1e21;
+}
+
+.projects-page
+{
+    background: #404040;
+    /*flex-shrink: 0;*/
+    width: 100%;
+    /*height: 127px;*/
+    /*position: relative;*/
+    gap: 100px;
+    align-content: center;
+}
+
+.projects-bar
+{
+    background: #d9d9d9;
+    width: 30%;
+    height: 50px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects-title
+{
+    text-decoration: overline;
+    text-decoration-color: black;
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    color: #1b1e21;
+
+}
+
 .projects
 {
     display: flex;
@@ -231,16 +289,8 @@ body
     align-content: center;
     align-self: stretch;
     flex-shrink: 0;
-    position: absolute;
-}
-
-.projects-bar
-{
-    background: #d9d9d9;
-    flex-shrink: 0;
-    width: 1726px;
-    height: 127px;
     position: relative;
+    padding-top: 10px;
 }
 
 .rise-from-ruin
@@ -278,3 +328,44 @@ body
     height: 577px;
     position: relative;
 }
+
+.contacts_Bar
+{
+    background: #6F6F6F;
+    flex-shrink: 0;
+    width: 100%;
+    height: 127px;
+    font-family: "Oswald-Regular", sans-serif;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+
+    a:link
+    {
+        color: #84e2ef;
+    }
+
+    a:visited
+    {
+        color: #84e2ef;
+    }
+
+    a:hover
+    {
+        color: #67b6bb;
+    }
+
+    a:active
+    {
+        color: #84e2ef;
+    }
+}
+
+.contacts-title
+{
+    color: black;
+}
+
+/*background photo*/
+/*background-image: url("Images/M64.PNG");*/
+

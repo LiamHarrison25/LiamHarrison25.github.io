@@ -15,38 +15,39 @@
 <body style ="background-color: gray">
 
 <!--SECTION: navbar -->
-<ul class="page-navigation-bar" id="nav-bar">
-    <li class="liam-harrison">
+
+<div class="page-navigation-bar" id="nav-bar">
+    <div class="liam-harrison">
         Liam Harrison
-    </li>
+    </div>
     <!--        <li class="profile-picture">-->
     <!--            <img class="profile-picture" src="Images/profile.jpg" alt="Profile Picture" > &lt;!&ndash; width="60" height="60" &ndash;&gt;-->
     <!--        </li>-->
-    <li class="home-page-button">
+    <div class="home-page-button">
         <a href="#home-section" class="nav-link" >
             <div class="ellipse-1"></div>
             <div class="home">Home</div>
         </a>
-    </li>
-    <li class="resume-page-button">
+    </div>
+    <div class="resume-page-button">
         <a href="./resume.html" class="nav-link" target="_blank">
             <div class="ellipse-2"></div>
             <div class="resume">Resume</div>
         </a>
-    </li>
-    <li class="contact-page-button">
-        <a href="./contact.html" class="nav-link">
+    </div>
+    <div class="contact-page-button">
+        <a href="#contacts-section" class="nav-link">
             <div class="ellipse-3"></div>
             <div class="contact">Contact</div>
         </a>
-    </li>
-    <li class="other-page-button">
+    </div>
+    <div class="other-page-button">
         <a href="./other.html" class="nav-link">
             <div class="ellipse-4"></div>
             <div class="other">Other</div>
         </a>
-    </li>
-</ul>
+    </div>
+</div>
 
 <!--SECTION: home-page -->
 <div class="home-page">
@@ -57,45 +58,74 @@
 
     <section class="about-me" id="home-section">
 
-        <h2>About Me</h2>
+        <h2 class="about-me-title">About Me</h2>
 
-        <hr>
-            <p>
-            A game programming major at Champlain College interested in pursuing a career in developing games. My expected graduation date is in May 2025.
-            I Studied abroad in Montreal and competed in the 2024 Ubisoft Game Lab Competition. My most important skills are problem-solving and adaptability.
-            My background has helped me in pursuing my interests.
-            </p>
-        <hr>
+            <div class="about-me-text">
+                <p>
+
+                    Gameplay developer, nominated for best technical in the 2024 Ubisoft Game Lab Competition,
+                    studying at Champlain College. Expected to graduate in May 2025 with a Bachelors of Science in Game Programming.
+
+                </p>
+
+                <p>
+                    I am passionate about video games and am interested in pursuing a career in game development.
+                    Working on video games has been a lifelong dream of mine.
+                    Ever since I started playing games when I was younger, I have always been interested in creating things I can call my own.
+                    From making custom Redstone machines in Minecraft, to messing around with forge in Halo,
+                    I have always enjoyed the creativity that can be brought out through video games.
+                </p>
+
+                <p>
+                    My most important skills are problem-solving and adaptability.
+                    These have helped me throughout my time programming at my time in college.
+                    I am a passionate bug solver, and I thrive on challenges.
+                    I can adapt very quickly to change, which I believe just provides more problems for me to help solve.
+                </p>
+            </div>
     </section>
 
     <section id="projects-section">
-        <div class="projects-bar"></div>
-        <div class="projects">
-            <!-- SECTION: List of best projects-->
-            <!--<h2 style="color:black; ">Projects</h2> -->
+        <div class="projects-page">
+            <div class="projects-bar">
+                <h2 class="projects-title">Projects</h2>
+            </div>
+            <div class="projects">
+                <!-- SECTION: List of best projects-->
+                <!--<h2 style="color:black; ">Projects</h2> -->
 
-            <!-- TODO: Add in projects -->
+                <!-- TODO: Add in projects -->
 
-            <div class="rise-from-ruin"></div>
-            <div class="notsb"></div>
-            <div class="game-engine"></div>
-            <div class="cave-generation"></div>
+                <div class="rise-from-ruin"></div>
+                <div class="notsb"></div>
+                <div class="game-engine"></div>
+                <div class="cave-generation"></div>
+            </div>
+
         </div>
+
     </section>
 
-    <div class="contacts">
-        <a style="color:lightblue;" href="https://www.linkedin.com/in/liam-t-harrison/">Linkedin</a>
-        <a style="color:lightblue;" href="https://github.com/LiamHarrison25">Github</a>
-    </div>
 
 </div>
 
-<!--<nav class>-->
-<!--    <a href="./index.html">Home</a>-->
-<!--    <a href="./resume.html">Resume</a>-->
-<!--    <a href="./contact.html">Contacts</a>-->
-<!--    <a href="./other.html">Other</a>-->
-<!--</nav>-->
+<section id="contacts-section">
+    <div class="contacts_Bar">
+
+        <h2 class="contacts-title">Contact Me</h2>
+        <div class="Linkedin">
+            <a href="https://www.linkedin.com/in/liam-t-harrison/">Linkedin</a>
+        </div>
+        <div class="Email">
+
+        </div>
+        <div class="Github">
+            <a href="https://github.com/LiamHarrison25">Github</a>
+        </div>
+
+    </div>
+</section>
+
 
 </body>
 
