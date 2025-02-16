@@ -625,6 +625,20 @@ html, body
     text-align: center;
 }
 
+.rise-from-ruin-splash
+{
+    text-align: justify;
+    padding: 10px 40px 10px 40px;
+}
+
+.rise-from-ruin-image
+{
+    align-self: center;
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
 .notsb
 {
     background: #6F6F6F;
@@ -634,6 +648,29 @@ html, body
     position: relative;
     text-align: center;
     color: #cfe7e3;
+}
+
+.notsb-bar
+{
+    background: #4f4f4f;
+    width: 100%;
+    height: 50px;
+    color: #cfe7e3;
+    text-align: center;
+}
+
+.notsb-splash
+{
+    text-align: justify;
+    padding: 10px 40px 10px 40px;
+}
+
+.notsb-image
+{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+    position: relative;
 }
 
 .game-engine
