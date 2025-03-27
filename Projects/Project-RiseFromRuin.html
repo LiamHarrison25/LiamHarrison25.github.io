@@ -1,10 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
+    <link rel="stylesheet" href="../StyleSheets/Projects/Project-RiseFromRuinStyle.css">
+    <title>Rise From Ruin</title>
     <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
+
+<<!--SECTION: navbar -->
+
+<div class="rfr-page-navigation-bar" id="nav-bar">
+    <div class="rfr-liam-harrison">
+        Liam Harrison
+    </div>
+
+    <div class="rfr-home-page-button">
+        <a href="../index.html" class="nav-link" >
+            <div class="rfr-ellipse-1"></div>
+            <div class="rfr-home-button-text">Home</div>
+        </a>
+    </div>
+    <div class="rfr-resume-page-button">
+        <a href="../resume.html" class="nav-link" target="_blank">
+            <div class="rfr-ellipse-2"></div>
+            <div class="rfr-resume-button-text">Resume</div>
+        </a>
+    </div>
+    <div class="rfr-other-page-button">
+        <a href="../other.html" class="nav-link">
+            <div class="rfr-ellipse-3"></div>
+            <div class="rfr-other-button-text">Other</div>
+        </a>
+    </div>
+</div>
+
+<!--SECTION: Project Page -->
+<div class="rise-from-ruin-info" id="rfr-info-section">
+
+    <div class="container">
+
+        <div class="rfr-slides">
+            <div class="numberText">1 / 6</div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mNkLAPNbzMc?si=mNZQvQ_Z1nmEklpM&autoplay=1&mute=1" title="rfr-highlights">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+
+        <div class="rfr-slides">
+            <div class="numberText">2 / 6</div>
+            <img src="../Images/rfrScreen1.png" style="width: 100%">
+        </div>
+
+        <div class="rfr-slides">
+            <div class="numberText">3 / 6</div>
+            <img src="../Images/rfrScreen2.png" style="width: 100%">
+        </div>
+
+        <div class="rfr-slides">
+            <div class="numberText">4 / 6</div>
+            <img src="../Images/rfrScreen3.png" style="width: 100%">
+        </div>
+
+        <div class="rfr-slides">
+            <div class="numberText">5 / 6</div>
+            <img src="../Images/rfrScreen4.png" style="width: 100%">
+        </div>
+
+        <div class="rfr-slides">
+            <div class="numberText">6 / 6</div>
+            <img src="../Images/rise_from_ruin.png" style="width: 100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="https://img.youtube.com/vi/mNkLAPNbzMc/0.jpg" style="width:100%" onclick="currentSlide(1)" alt="RFR Gameplay">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../Images/rfrScreen1.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../Images/rfrScreen2.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../Images/rfrScreen3.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../Images/rfrScreen4.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../Images/rise_from_ruin.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("rfr-slides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+
+<!--    <div class="rfr-video">-->
+<!--        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mNkLAPNbzMc?si=mNZQvQ_Z1nmEklpM&autoplay=1&mute=1" title="rfr-highlights">-->
+<!--            <p>Your browser does not support iframes.</p>-->
+<!--        </iframe>-->
+<!--    </div>-->
+
+    <div class="rfr-title">
+        <img class="rise-from-ruin-image" src="../Images/rise_from_ruin.png" alt="rise_from_ruin">
+    </div>
+
+    <div class="rfr-title-card">
+
+        <div class="rfr-role">
+            Role: Technical Lead
+        </div>
+
+        <div class="rfr-teamSize">
+            Team Size: 18
+        </div>
+
+        <div class="rfr-engine">
+            Engine: Unity
+        </div>
+
+        <div class="rfr-duration">
+            Project Duration: 1 year
+        </div>
+
+        <div class="rfr-itch">
+
+        </div>
+    </div>
+
+    <div class="rfr-description">
+        <p>
+            Rise from Ruin is a 3D character action game being developed for Game Studio 3.
+            In the game, you play as a big monster, however your role is swapped from traditional monster gameplay.
+            You are the protector of the city, and must defend it from waves of oncoming enemies. You are an unstoppable force,
+            but there is only one of you.
+        </p>
+    </div>
+
+</div>
+
+
 
 </body>
 </html>
