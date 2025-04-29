@@ -565,6 +565,7 @@ a,a:hover, a:visited {
 }
 .rfr-mobileSystem
 {
+    margin-top: 1%;
     background-image: url("../../Images/RFR/NorseCity.png");
     flex-direction: column;
     margin-left: auto;
@@ -588,4 +589,27 @@ a,a:hover, a:visited {
 .rfr-mobileSystem-title
 {
     font-size: xxx-large;
+}
+
+.programmer-pipelines
+{
+    margin-top: 1%;
+    background-image: url("../../Images/RFR/NorseCity.png");
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    padding: 1% 1% 1% 1%;
+
+    /*mobile*/
+    width: 90%;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 50%;
+    }
 }
