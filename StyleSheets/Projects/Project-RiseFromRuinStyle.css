@@ -6,6 +6,7 @@ html, body
     padding: 0;
     scroll-behavior: smooth;
     background-image: url('../../Images/rfrBackground.png');
+    background-attachment: fixed;
 }
 
 *
@@ -499,4 +500,23 @@ html, body
     width: 100%;
     height: 60%;
     position: relative;
+}
+
+.rfr-responsibilities
+{
+    background-image: url("../../Images/RFR/PoemBackPanel.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 1% 1% 1%;
+    color: white;
+    font-size: x-large;
+    list-style-position: inside;
 }
