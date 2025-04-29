@@ -196,7 +196,49 @@
     </div>
 
     <div class="rfr-mobileSystem">
-        
+
+        <div class="rfr-mobileSystem-title">
+            Mobile System
+        </div>
+        <p>
+            One of the systems that I worked on for this game was the mobile AI system.
+            This system controlled the various aspects of the AI units that would move around the game.
+
+        </p>
+
+        <img class="rfr-uml-mobiles" src="../Images/RFR/UML/Mobiles.png" alt="mobile_system">
+        <p>
+            The base mobile class is used to derive all of the other mobile types. This includes both
+            enemy mobiles as well as allies. The mobile class is an abstract class that is very adaptable to work for all mobile types.
+            This mobile class implements the IHealth and IDamage interfaces. These interfaces are used to provide a unified way to deal damage in the game.
+            This allows for other objects in the game to deal damage to the mobiles, including both the player and other mobiles.
+        </p>
+
+        <img class="rfr-uml-mobileGroups" src="../Images/RFR/UML/MobileGroups.png" alt="mobile_groups">
+        <p>
+            The mobile groups class is used to create different types of mobile groups. These groups are what
+            decides the decision making of the AI agents. Each group stores a set of mobiles that corresponding to that same type.
+            Based on many factors, the group will pass the destination for where each agent in the group should move towards.
+
+        </p>
+
+        <img class="rfr-uml-mobileAggregates" src="../Images/RFR/UML/MobileAggregates.png" alt="mobile_aggregates">
+        <p>
+            The mobile aggregates are classes which create and store the groups. They are responsible for looping over all of the groups
+            and updating them.
+        </p>
+        <img class="rfr-uml-mobilePools" src="../Images/RFR/UML/MobilePools.png" alt="mobile_pools">
+        <p>
+            The mobile pools are responsible for storing the mobile objects. They contain object pools which recycle the mobiles when they are killed.
+            This reduces a lot of heap memory calls as they are re-used.
+        </p>
+
+        <img class="rfr-uml-mobileFactories" src="../Images/RFR/UML/MobileFactories.png" alt="mobile_factories">
+        <p>
+            The mobile factories are responsible for spawning in the mobiles. They grab the recycled mobiles directyly from the pools and spawn them in based
+            on the spawning algorithm.
+        </p>
+
     </div>
 
 </div>

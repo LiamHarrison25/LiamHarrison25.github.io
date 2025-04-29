@@ -430,14 +430,13 @@ html, body
 
 .rfr-title-card
 {
-    font-size: x-large;
     color: #ffffff;
     background-image: url("../../Images/RFR/background Panel.png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
-    width: 30%;
+
     height: 40%;
     text-align: center;
     align-content: center;
@@ -446,6 +445,17 @@ html, body
     font-family: "Oswald-Regular", sans-serif;
     justify-content: center;
     /*border: 1px solid black;*/
+
+    /*mobile*/
+    width: 90%;
+    font-size: medium;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: x-large;
+        width: 30%;
+    }
 }
 
 .rfr-role
@@ -487,11 +497,21 @@ html, body
     background-attachment: local;
     margin-left: auto;
     margin-right: auto;
-    font-size: xx-large;
-    width: 40%;
     height: 50%;
     /*border: 1px solid black;*/
     text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+
+    /*mobile*/
+    width: 90%;
+    font-size: medium;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: xx-large;
+        width: 40%;
+    }
 }
 
 .rise-from-ruin-image
@@ -505,18 +525,55 @@ html, body
 .rfr-responsibilities
 {
     background-image: url("../../Images/RFR/PoemBackPanel.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: local;
     text-align: center;
-    width: 60%;
     height: 50%;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 5% 1% 1% 1%;
+    padding: 2% 1% 1% 1%;
     color: white;
-    font-size: x-large;
+
     list-style-position: inside;
+    font-family: "Oswald-Regular", sans-serif;
+
+    /*mobile*/
+    width: 90%;
+    font-size: medium;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        font-size: x-large;
+        width: 60%;
+    }
+}
+.rfr-mobileSystem
+{
+    background-image: url("../../Images/RFR/NorseCity.png");
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    text-align: center;
+    font-family: "Oswald-Regular", sans-serif;
+    padding: 1% 1% 1% 1%;
+
+    /*mobile*/
+    width: 90%;
+
+    /*desktop*/
+    @media only screen and (min-width: 768px)
+    {
+        width: 50%;
+    }
+}
+
+.rfr-mobileSystem-title
+{
+    font-size: xxx-large;
 }
